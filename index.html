@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SD Negeri 5 Menteng</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a class="logo"><img src="logo.png" alt="" width="100px" height="100px" /></a>
+      <a href="#" class="namaSD"> SD NEGERI 5 MENTENG </a>
+
+      <div class="navbar-nav">
+        <ul>
+          <a href="#"> Beranda</a>
+          <a href="#profil"> Profil</a>
+          <a href="#pendaftaran"> Pendaftaran</a>
+          <a href="#berita"> Berita</a>
+          <a href="#guru"> Guru</a>
+        </ul>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="beranda" id="#">
+      <main class="content">
+        <h1>Selamat Datang</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore minus obcaecati dolores magni reprehenderit? Maiores tempore, quo dolorem natus illum numquam repellendus fugiat modi itaque, quas optio mollitia.</p>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- profil Section start -->
+    <section id="profil" class="profil">
+      <div class="row">
+        <div class="profil;-img">
+          <img src="sekolah.PNG" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>SD Negeri 5 Menteng</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus voluptatum dolor. Et, voluptatum accusantium!</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic deserunt iure amet facilis eos a quo cum voluptates molestias nihil.</p>
+        </div>
+      </div>
+    </section>
+    <!-- profil Section end -->
+
+    <!-- pendaftaran Section -->
+    <section id="pendaftaran" class="pendaftaran">
+      <div class="daftar">
+        <h1>Pendaftaran Siswa dan Siswi</h1>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required /><br />
+
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required /><br />
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <input type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-laki" required />
+        <label for="laki_laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required />
+        <label for="perempuan">Perempuan</label><br />
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" rows="4" required></textarea><br />
+
+        <label for="no_telepon">No. Telepon:</label>
+        <input type="text" id="no_telepon" name="no_telepon" required /><br />
+
+        <input type="submit" value="Daftar" />
+      </div>
+    </section>
+    <!-- profil Section end -->
+
+    <!-- berita Section-->
+    <section id="berita" class="berita">
+      <div class="konten">
+        <h1>Berita</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure obcaecati repudiandae cum reiciendis quasi, repellat dolor quibusdam nihil quaerat provident!</p>
+      </div>
+    </section>
+
+    <!-- guru Section -->
+    <section id="guru" class="guru">
+      <div class="guru">
+        <h1>Guru</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure obcaecati repudiandae cum reiciendis quasi, repellat dolor quibusdam nihil quaerat provident!</p>
+      </div>
+    </section>
+    <!-- guru Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="credit">
+        <p>Created by <a href=""> fajar</a> .| 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
